@@ -15,3 +15,54 @@
 --barlow: 'Barlow', sans-serif;
 --fraunces: 'Fraunces', serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    font-size: 18px;
+}
+
+.section-one {
+    background-image: url(images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 100%;
+}
+
+.nav-header {
+ display: flex;
+ justify-content: space-between;
+ padding: 30px 20px 0px 20px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-content p {
+    font-size: 40px;
+    width: 10ch;
+    text-align: center;
+    font-family: var(--fraunces);
+    font-weight: 900;
+    color: var(--White);
+    text-transform: uppercase;
+    margin: 100px 0px 50px;
+    letter-spacing: 5px;
+}
+
+.intro-content img {
+    width: 35px;
+}
