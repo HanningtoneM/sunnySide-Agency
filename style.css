@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
 :root {
 --Soft-red: hsl(7, 99%, 70%);
 --Yellow: hsl(51, 100%, 49%);
@@ -9,4 +12,6 @@
 --Dark-grayish-blue: hsl(232, 10%, 55%);
 --Grayish-blue: hsl(210, 4%, 67%);
 --White: hsl(0, 0%, 100%);
+--barlow: 'Barlow', sans-serif;
+--fraunces: 'Fraunces', serif;
 }
