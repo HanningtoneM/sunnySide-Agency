@@ -24,6 +24,7 @@
 
 img {
     width: 100%;
+    height: 100%;
     display: block;
 }
 
@@ -34,9 +35,9 @@ body {
 .section-one {
     background-image: url(images/mobile/image-header.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 700px;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
 }
 
 .nav-header {
@@ -65,4 +66,40 @@ body {
 
 .intro-content img {
     width: 35px;
+}
+
+.content-two {
+   background-color: var(--White);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.content-two .header {
+    width: 15ch;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: var(--fraunces);
+}
+
+.content-two .paragraph {
+    text-align: center;
+    width: 34ch;
+    line-height: 30px;
+    font-family: var(--barlow);
+    opacity: 0.5;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content-two .footer {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: var(--fraunces);
+    text-decoration: underline;
+    text-decoration-color: var(--Yellow);
+    text-decoration-thickness: 10px;
+    margin-bottom: 60px;
 }
