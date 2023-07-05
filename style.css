@@ -68,14 +68,14 @@ body {
     width: 35px;
 }
 
-.content-two {
+.content-card {
    background-color: var(--White);
    display: flex;
    flex-direction: column;
    align-items: center;
 }
 
-.content-two .header {
+.header {
     width: 15ch;
     text-align: center;
     padding: 40px 0px 20px 0px;
@@ -84,7 +84,7 @@ body {
     font-family: var(--fraunces);
 }
 
-.content-two .paragraph {
+.paragraph {
     text-align: center;
     width: 34ch;
     line-height: 30px;
@@ -94,7 +94,7 @@ body {
     margin-bottom: 20px;
 }
 
-.content-two .footer {
+.learn-more {
     text-transform: uppercase;
     font-weight: 900;
     font-family: var(--fraunces);
@@ -102,4 +102,8 @@ body {
     text-decoration-color: var(--Yellow);
     text-decoration-thickness: 10px;
     margin-bottom: 60px;
+}
+
+.content-three .learn-more {
+    text-decoration-color: var(--Soft-red);
 }
