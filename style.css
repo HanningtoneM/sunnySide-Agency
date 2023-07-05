@@ -80,7 +80,6 @@ body {
     transition: transform 0.6s;
 }
 
-
 .nav-menu ul {
    display: flex;
    flex-direction: column;
@@ -157,6 +156,7 @@ body {
     text-decoration-thickness: 10px;
     margin-bottom: 60px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .content-three .learn-more {
