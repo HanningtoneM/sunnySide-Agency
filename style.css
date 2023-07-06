@@ -357,6 +357,17 @@ body {
         margin-right: 240px;
     }
 
+    .section-four {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    .content-graphic {
+        background-image: url(images/desktop/image-graphic-design.jpg);
+    }
+
+    .content-photography {
+        background-image: url(images/desktop/image-photography.jpg);
+    }
 
   }
