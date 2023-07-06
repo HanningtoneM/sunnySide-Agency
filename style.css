@@ -331,7 +331,7 @@ body {
     }
 
     .section-three {
-        
+        flex-direction: row;
     }
     
     .content-card {
@@ -339,7 +339,7 @@ body {
         margin: auto;
     }
 
-    .section-two .egg-image {
+    .section-two .egg-image, .pink-image {
         width: 50%;
     }
 
@@ -354,7 +354,7 @@ body {
 
     .content-card .learn-more {
         text-align: left;
-        margin-right: 250px;
+        margin-right: 240px;
     }
 
 
