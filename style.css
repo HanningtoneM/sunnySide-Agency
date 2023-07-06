@@ -324,4 +324,39 @@ body {
     .intro-content p {
         width: 50ch;
     }
+
+    .section-two, .section-three {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .section-three {
+        
+    }
+    
+    .content-card {
+        display: flex;
+        margin: auto;
+    }
+
+    .section-two .egg-image {
+        width: 50%;
+    }
+
+    .content-card p {
+        text-align: left;
+    }
+
+    .content-card .header {
+        text-align: left;
+        width: 16ch;
+    }
+
+    .content-card .learn-more {
+        text-align: left;
+        margin-right: 250px;
+    }
+
+
+
   }
