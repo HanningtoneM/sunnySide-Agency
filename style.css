@@ -94,6 +94,7 @@ body {
     font-size: 20px;
     opacity: 0.8;
     letter-spacing: 1px;
+    font-family: var(--barlow);
 }
 
 .nav-menu .button {
@@ -275,3 +276,20 @@ body {
     margin-bottom: 80px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 750.99px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop-nav-menu ul {
+        display: flex;
+        gap: 40px;
+        margin-right: 30px;
+    }
+
+    .desktop-nav-menu li {
+        color: var(--White);
+        font-family: var(--barlow);
+    }
+  }
