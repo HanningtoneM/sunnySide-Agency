@@ -104,6 +104,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: black;
+    font-family: var(--fraunces);
 }
 
 .intro-content p {
@@ -277,19 +278,50 @@ body {
     cursor: pointer;
 }
 
+@media screen and (max-width: 750.98px) {
+    
+}
+
 @media screen and (min-width: 750.99px) {
     .mobile {
         display: none;
+    }
+
+    .nav-header {
+        height: 70px;
     }
 
     .desktop-nav-menu ul {
         display: flex;
         gap: 40px;
         margin-right: 30px;
+       align-items: center;
     }
 
     .desktop-nav-menu li {
         color: var(--White);
         font-family: var(--barlow);
+    }
+
+    .desktop-nav-menu .button {
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: var(--White);
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+        font-family: var(--fraunces);
+    }
+
+    .section-one {
+        background-image: url(images/desktop/image-header.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-grow: 1;
+    }
+
+    .intro-content p {
+        width: 50ch;
     }
   }
