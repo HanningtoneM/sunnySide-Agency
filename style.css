@@ -215,9 +215,7 @@ body {
     max-width: 100vw;
 }
 
-.testimonies {
-    width: 80vw;
-}
+
 
 .testimony {
     display: flex;
@@ -284,14 +282,14 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 750.98px) {
+@media screen and (max-width: 750px) {
     .desktop {
         display: none;
     }
     
 }
 
-@media screen and (min-width: 750.99px) {
+@media screen and (min-width: 751px) {
      
 
     .mobile {
@@ -333,7 +331,8 @@ body {
     }
 
     .intro-content p {
-        width: 50ch;
+        width: -moz-fit-content;
+        width: fit-content;
     }
 
     .section-two, .section-three {
@@ -381,7 +380,11 @@ body {
         background-image: url(images/desktop/image-photography.jpg);
     }
 
-   
+    .testimonies {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
 
     .products-images {
         grid-template-columns: repeat(4, 1fr);
@@ -389,10 +392,6 @@ body {
 
   }
 
-  @media screen and (min-width: 1200.99px) {
-    .testimonies {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 30px;
-    }
+  @media screen and (min-width: 1200px) {
+   
   }
