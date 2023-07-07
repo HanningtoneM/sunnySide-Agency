@@ -301,7 +301,7 @@ body {
         display: flex;
         gap: 40px;
         margin-right: 30px;
-       align-items: center;
+        align-items: center;
     }
 
     .desktop-nav-menu li {
