@@ -110,7 +110,6 @@ body {
 
 .intro-content p {
     font-size: 40px;
-    /* max-width: 10ch; */
     text-align: center;
     font-family: var(--fraunces);
     font-weight: 900;
