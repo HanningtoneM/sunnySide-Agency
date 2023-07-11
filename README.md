@@ -4,7 +4,7 @@
 
 #> Using HTML, CSS. JavaScript
 
-## Live Demo
+# Live Demo
 
 [Live Demo Link](https://hanningtonem.github.io/sunnySide-Agency/)
 
