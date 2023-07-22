@@ -1,4 +1,4 @@
-const hamburgerMenu = document.getElementById("hamburger-menu")
+const hamburgerMenu = document.getElementById("hamburger-menu");
 const navMenu = document.getElementById("nav-menu")
 
 
